@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(barba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titulo{
+    margin-top: 2%;
+    margin-left: 37%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: antiquewhite;
+}
+
+#agenda{
+    margin-top: 2%;
+    margin-left: 37%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+Label{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 2%;
+    margin-left: 37%;
+}
+
+.forma-pagamento {
+    display: flex;
+    gap: 15px;
+    margin-left: 37%;
+}
+
+.forma-pagamento label {
+    margin-left: 5px;
+    font-weight:normal;
+}
+
+.forma-pagamento input[type="radio"] {
+    accent-color: black;
+}
+
+h3 {
+    margin-top: 2%;
+    margin-left: 37%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: antiquewhite;
+}
+
+/* Estilo básico do botão */
+.botao-agendar {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    cursor: pointer;
+    margin-left: 35%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito de hover */
+.botao-agendar:hover {
+    background-color: #9d9fa1;
+    transform: scale(1.05);
+
+}
+#cancelar {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Efeito de hover */
+#cancelar:hover {
+    background-color: #9d9fa1;
+    transform: scale(1.05);
+}
